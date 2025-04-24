@@ -1,26 +1,93 @@
-
 <!DOCTYPE html>
 <html lang="bn">
 <head>
-  <meta charset="UTF-8">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Nowshin's Shop</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      text-align: center;
+      background: linear-gradient(to right, #ffe4e1, #fffafc);
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background: #ff69b4;
+      color: white;
+      padding: 20px;
+      font-size: 24px;
+    }
+    .product {
+      border: 1px solid #ddd;
+      margin: 20px;
+      padding: 15px;
+      border-radius: 10px;
+      display: inline-block;
+      width: 200px;
+      background: #fff;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 5px;
+    }
+    .price {
+      font-weight: bold;
+      color: green;
+    }
+    footer {
+      margin-top: 40px;
+      color: #888;
+    }
+  </style>
 </head>
-<body style="text-align: center; font-family: sans-serif;">
-  <h1 style="color: darkgreen;">নওশীন'স অনলাইন শপ</h1>
-  <p>WhatsApp-এ অর্ডার করতে কল করুন: <b>01719180631</b></p>
+<body>
+  <header>Nowshin's Shop</header>
 
-  <div style="margin: 20px;">
-    <h3>১. ছোট ওয়াটার বোতল</h3>
-    <img src="https://i.imgur.com/ihR5uST.jpg" width="150" />
-    <p>দাম: ৭০ টাকা</p>
+  <p style="color: darkgreen; font-size: 18px;">
+    WhatsApp-এ অর্ডার করতে কল করুন: <b>01719180631</b>
+  </p>
+
+  <div class="product">
+    <h3>ছোট ওয়াটার বোতল</h3>
+    <img src="https://i.imgur.com/ihRSu5T.jpg" alt="Water Bottle">
+    <p class="price">৭০ টাকা</p>
   </div>
 
-  <div style="margin: 20px;">
-    <h3>২. LED আলো</h3>
-    <img src="https://i.imgur.com/lqXh9KT.jpg" width="150" />
-    <p>দাম: ১৫০ টাকা</p>
+  <div class="product">
+    <h3>LED আলো</h3>
+    <img src="https://i.imgur.com/lxqhXKT.jpg" alt="LED Light">
+    <p class="price">১৫০ টাকা</p>
   </div>
 
-  <p style="margin-top: 40px;">© Nowshin Shop</p>
+  <div class="product">
+    <h3>মিনি ফ্যান</h3>
+    <img src="https://i.imgur.com/YlRx1hO.jpg" alt="Mini Fan">
+    <p class="price">১২০ টাকা</p>
+  </div>
+
+  <div class="product">
+    <h3>হেয়ার ক্লিপ সেট</h3>
+    <img src="https://i.imgur.com/W4P3nAf.jpg" alt="Hair Clip">
+    <p class="price">৫০ টাকা</p>
+  </div>
+
+  <div class="product">
+    <h3>চুলের ক্লিপ</h3>
+    <img src="https://i.imgur.com/Ji03qLb.jpg" alt="চুলের ক্লিপ">
+    <p class="price">৩০ টাকা</p>
+  </div>
+
+  <div class="product">
+    <h3>হাতঘড়ি</h3>
+    <img src="https://i.imgur.com/iwTYNrD.jpg" alt="হাতঘড়ি">
+    <p class="price">২০০ টাকা</p>
+  </div>
+
+  <footer>
+    &copy; Nowshin Shop 2025
+  </footer>
 </body>
 </html>
